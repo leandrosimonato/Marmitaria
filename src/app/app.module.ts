@@ -8,7 +8,7 @@ import { PackageListComponent } from './packages/package-list/package-list.compo
 import { PackageDetailsComponent } from './packages/package-details/package-details.component';
 import { PackageItemComponent } from './packages/package-list/package-item/package-item.component';
 import { FoodListComponent } from './food-list/food-list.component';
-import { FoodAditComponent } from './food-list/food-adit/food-adit.component';
+import { FoodEditComponent } from './food-list/food-edit/food-edit.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { FoodAditComponent } from './food-list/food-adit/food-adit.component';
     PackageDetailsComponent,
     PackageItemComponent,
     FoodListComponent,
-    FoodAditComponent,
+    FoodEditComponent,
   ],
   imports: [BrowserModule],
   providers: [],
